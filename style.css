@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.body {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.photo {
+  width: 400px;
+}
+.text {
+  width: 400px;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  margin: 20px auto;
+  color: hsl(223, 47%, 23%);
+}
+h3 {
+  color: hsl(223, 47%, 23%);
+  font-weight: bolder;
+}
+p {
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+#you {
+  margin: 0 40px;
+  text-align: center;
+}
+.annual {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  padding: 10px 5px;
+  gap: 10px;
+  margin: 20px;
+}
+#change {
+  color: hsl(245, 75%, 52%);
+  font-weight: bold;
+  font-size: 16px;
+
+  padding-left: 10px;
+}
+#change:hover {
+  color: hsl(224, 23%, 55%);
+}
+.plan {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-right: 40px;
+}
+.btn {
+  width: 300px;
+  background-color: hsl(245, 75%, 52%);
+  padding: 15px 40px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  margin: 20px auto;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 0 15px 0 hsl(245, 75%, 52%);
+  cursor: pointer;
+  border: none;
+}
+.btn:hover {
+  background-color: hsl(224, 23%, 55%);
+}
+
+#cancel {
+  margin-bottom: 30px;
+  margin-top: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+#cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 20px;
+  }
+}
